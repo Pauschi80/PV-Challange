@@ -1,0 +1,56 @@
+// Start building your schema here.
+//
+// The schema is used to to ensure a level of type safety in your queries.
+//
+// The schema is made up of Node types, denoted by N::,
+// and Edge types, denoted by E::
+//
+// Under the Node types you can define fields that
+// will be stored in the database.
+//
+// Under the Edge types you can define what type of node
+// the edge will connect to and from, and also the
+// properties that you want to store on the edge.
+//
+// Example:
+//
+// N::User {
+//     Name: String,
+//     Label: String,
+//     Age: Integer,
+//     IsAdmin: Boolean,
+// }
+//
+// E::Knows {
+//     From: User,
+//     To: User,
+//     Properties: {
+//         Since: Integer,
+//     }
+// }
+//
+// For more information on how to write queries,
+// see the documentation at https://docs.helix-db.com
+// or checkout our GitHub at https://github.com/HelixDB/helix-db
+
+N::Patient {
+    name: String,
+    alter: String,
+    geschlecht: String,
+    aktuellekrebserkrankung: String,
+    alkoholkonsum: String,
+    raucher: String,
+    vitalbmi: String,
+    berufderzeit: String,
+    wohnsituationsonstiges: String,
+    diagnose: String,
+    anamneseallgemein: String,
+    jetzigebeschwerden: String,
+    rehaspezifischeanamnese: String,
+    aufenthaltsdauer: String,
+    indikation: String,
+    leistungskategorie: String,
+    aufenthaltstyp: String,
+    teilhabeziel: String,
+}
+
